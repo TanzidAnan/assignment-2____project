@@ -8,6 +8,7 @@
 body {
     font-family: Inter;
     background: rgb(0, 0, 0);
+    color: white;
 }
 
 .nav-bar-sections {
@@ -35,10 +36,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
-.nav-section{
+
+.nav-section {
     display: flex;
 }
-.nav-bar-section ul li{
+
+.nav-bar-section ul li {
     padding: 10px 10px;
 }
 
@@ -52,6 +55,7 @@ body {
     padding: 10px 20px;
     border-radius: 46px;
     background: rgb(230, 83, 60);
+    font-weight: 600;
 }
 
 .display-block {
@@ -64,6 +68,84 @@ body {
     font-size: 24px;
 }
 
+/* button section */
+.btn {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.download {
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 42px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.banner-div {
+    width: 50%;
+}
+
+.banner-img {
+    width: 50%;
+    position: relative;
+}
+
+.banner-img img {}
+
+.food-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.food-dispration {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.img-div {
+    position: absolute;
+    width: 150px;
+    background: rgba(48, 48, 48, 0.54);
+    margin-top: -100px;
+    border-radius: 12px;
+    padding: 15px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    gap: 20px;
+}
+
+.img-div h1 {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.img-div1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 250px;
+    margin-top: -300px;
+}
+
 @media screen and (max-width:576px) {
     .logo {
         font-size: 1.4rem;
@@ -74,6 +156,10 @@ body {
     }
 
     .display-block {
+        display: block;
+    }
+
+    .banner-section {
         display: block;
     }
 }
