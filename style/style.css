@@ -207,7 +207,7 @@ body {
 }
 
 .run-title-div {
-    width: 50%;
+    width: 50%; 
     margin: 30px 50px;
 }
 
@@ -246,10 +246,6 @@ body {
     .display-block {
         display: block;
     }
-
-    /* .banner-section {
-        display: block;
-    } */
     .banner-section {
         flex-direction: column;
         margin: 30px 15px;
@@ -283,26 +279,23 @@ body {
     }
     .run-section {
         flex-direction: column;
-        width: 100%;
+        width: 70%;
+        padding: 20px 30px 0 0;
         margin: 0 auto;
     }
     .run-title-div h1{
         font-size: 2.5rem;
         margin-bottom: 15px;
     }
-    .run-title-div{
-        width: 100%;
-    }
     .run-img img {
         width: 85%;
-        margin-left: 40px;
-        margin-top: 40px;
-        border-radius: 18px;
     }
     .run-title-div {
-        width: 70%;
+        width: 80%;
+        margin-left: 20px;
     }
     .run-img{
         width: 100%;
+        margin: 0;
     }
 }
