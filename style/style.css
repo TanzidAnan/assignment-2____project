@@ -102,6 +102,7 @@ body {
     width: 50%;
     position: relative;
 }
+
 .food-title {
     color: rgb(255, 255, 255);
     font-size: 4.5rem;
@@ -117,9 +118,9 @@ body {
 
 .img-div {
     position: absolute;
-    width: 150px;
+    /* width: 150px; */
     background: rgba(48, 48, 48, 0.54);
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: -88px;
     border-radius: 12px;
     padding: 15px;
@@ -146,43 +147,96 @@ body {
     backdrop-filter: blur(20px);
     gap: 20px;
 }
-.img-div1 p{
+
+.img-div1 p {
     font-size: 14px;
+}
+
+.change-habits-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.change-habits-title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.change-habits-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.change-habits-div {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.change-habits-div img {
+    border-radius: 50%;
+}
+
+.change-habits-div h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 15px 0px;
+}
+.change-habits-div p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: .8rem;
+margin-bottom: 20px;
 }
 
 @media screen and (max-width:576px) {
     .logo {
         font-size: 3rem;
     }
+
     .nav-bar-section {
         display: none;
     }
+
     .display-block {
         display: block;
     }
+
     /* .banner-section {
         display: block;
     } */
-    .banner-section{
+    .banner-section {
         flex-direction: column;
-        margin: 30px 15px; 
+        margin: 30px 15px;
     }
-    .banner-div{
+
+    .banner-div {
         width: 100%;
     }
-    .food-title{
+
+    .food-title {
         font-size: 2rem;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
         margin-top: 70px;
     }
-    .img-div{
+
+    .img-div {
         margin-top: -250px;
-        margin-left: 10px; 
+        margin-left: 10px;
     }
+
     .img-div1 {
         margin-top: -580px;
         margin-left: 170px;
+    }
+    .change-habits-div{
+        grid-template-columns: repeat(1,1fr);
     }
 }
