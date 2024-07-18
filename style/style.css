@@ -284,6 +284,32 @@ body {
     font-weight: 400;
 }
 
+.footer-section-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin: 0 auto;
+    gap: 120px;
+    padding-top: 50px;
+}
+
+.food-div h1 {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.food-div p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.food-div1 p,.food-div2 p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 8px;
+    font-size: 15px;
+}
 
 @media screen and (max-width:576px) {
     .logo {
@@ -359,4 +385,11 @@ body {
     .team-section {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer-section-div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 0px;
+    }
+
 }
