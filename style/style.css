@@ -102,9 +102,6 @@ body {
     width: 50%;
     position: relative;
 }
-
-.banner-img img {}
-
 .food-title {
     color: rgb(255, 255, 255);
     font-size: 4.5rem;
@@ -123,6 +120,7 @@ body {
     width: 150px;
     background: rgba(48, 48, 48, 0.54);
     margin-top: -100px;
+    margin-left: -88px;
     border-radius: 12px;
     padding: 15px;
     backdrop-filter: blur(20px);
@@ -139,27 +137,52 @@ body {
 
 .img-div1 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    width: 150px;
+    background: rgba(48, 48, 48, 0.54);
+    margin-top: -420px;
     margin-left: 250px;
-    margin-top: -300px;
+    border-radius: 12px;
+    padding: 15px;
+    backdrop-filter: blur(20px);
+    gap: 20px;
+}
+.img-div1 p{
+    font-size: 14px;
 }
 
 @media screen and (max-width:576px) {
     .logo {
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
-
     .nav-bar-section {
         display: none;
     }
-
     .display-block {
         display: block;
     }
-
-    .banner-section {
+    /* .banner-section {
         display: block;
+    } */
+    .banner-section{
+        flex-direction: column;
+        margin: 30px 15px; 
+    }
+    .banner-div{
+        width: 100%;
+    }
+    .food-title{
+        font-size: 2rem;
+    }
+    .banner-img{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .img-div{
+        margin-top: -250px;
+        margin-left: 10px; 
+    }
+    .img-div1 {
+        margin-top: -580px;
+        margin-left: 170px;
     }
 }
