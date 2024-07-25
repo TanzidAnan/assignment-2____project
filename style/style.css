@@ -93,7 +93,9 @@ body {
     align-items: center;
     margin-top: 100px;
 }
-
+.head-spam{
+    font-weight: 300;
+}
 .banner-div {
     width: 50%;
 }
@@ -268,8 +270,10 @@ th {
     height: 50%;
     color: rgba(255, 255, 255, 0.5);
 }
-
-.alculate-input p {
+/* select{
+    color: rgba(255, 255, 255, 0.5);
+} */
+.alculate-input p,select {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
@@ -281,7 +285,7 @@ th {
     margin-top: 20px;
 }
 
-.input-text1 input {
+.input-text1 input ,select {
     width: 100%;
     height: 5vh;
     border-radius: 8px;
@@ -349,7 +353,7 @@ th {
 
 .food-div h1 {
     color: rgb(230, 83, 60);
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 800;
 }
 
@@ -369,6 +373,7 @@ th {
 .copi-right {
     text-align: center;
     margin-right: 50px;
+    margin-top: 20px;
 }
 
 .copi-right hr {
