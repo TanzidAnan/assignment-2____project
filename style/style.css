@@ -1,3 +1,18 @@
-.background-progams{
-    
+.background{
+    background-image: linear-gradient(45deg, rgba(208, 225, 204, 0.2), rgb(140, 145, 117)),url('../Images/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.teenager{
+    background-image: linear-gradient(45deg, rgba(39, 47, 37, 0.2), rgb(0, 73, 69)),url('../Images/3.png');
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.professional{
+    background-image: linear-gradient(45deg, rgba(39, 47, 37, 0.2), rgb(0, 73, 69)),url('../Images/4.png');
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
